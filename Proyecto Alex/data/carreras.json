@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "nombre": "Licenciatura en Matematica",
+    "url": "https://es.wikipedia.org/wiki/Matem%C3%A1ticas"
+  },
+  {
+    "id": 2,
+    "nombre": "Tecnicatura en Programacion",
+    "url": "https://es.wikipedia.org/wiki/Programaci%C3%B3n"
+  },
+  {
+    "id": 3,
+    "nombre": "Analista de Datos",
+    "url": "https://es.wikipedia.org/wiki/Ciencia_de_datos"
+  },
+  {
+    "id": 4,
+    "nombre": "Ingenieria en Sistemas",
+    "url": "https://es.wikipedia.org/wiki/Ingenier%C3%ADa_de_sistemas"
+  },
+  {
+    "id": 5,
+    "nombre": "Gestion de Proyectos",
+    "url": "https://es.wikipedia.org/wiki/Gesti%C3%B3n_de_proyectos"
+  }
+]

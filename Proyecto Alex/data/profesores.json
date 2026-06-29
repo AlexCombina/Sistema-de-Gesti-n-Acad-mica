@@ -1,0 +1,22 @@
+[
+  {
+    "nombre": "Diego",
+    "apellido": "Gudi�o",
+    "asignaturas": [
+      4
+    ],
+    "fechaNac": "1980-03-12",
+    "rol": "Profesor",
+    "id": 1
+  },
+  {
+    "nombre": "Cristian",
+    "apellido": "Caon",
+    "asignaturas": [
+      3
+    ],
+    "id": 2,
+    "fechaNac": "1975",
+    "rol": "Profesor"
+  }
+]

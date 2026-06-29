@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f7fafc;
+  color: #1f2937;
+  padding: 24px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.toolbar-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.04);
+  max-width: 520px;
+}
+
+.alta-btn {
+  width: fit-content;
+  border: none;
+  border-radius: 8px;
+  background: #0f766e;
+  color: #ffffff;
+  padding: 10px 12px;
+  cursor: pointer;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tabla-wrap {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.04);
+  margin-top: 18px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #1d4ed8;
+  color: #ffffff;
+}
+
+thead th[data-sort] {
+  cursor: pointer;
+  user-select: none;
+}
+
+thead th[data-sort]:hover {
+  background: #1e40af;
+}
+
+th,
+td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.col-id {
+  display: none;
+}
+
+#cuerpo-tabla tr:nth-child(odd) {
+  background: #ffffff;
+}
+
+#cuerpo-tabla tr:nth-child(even) {
+  background: #f1f5f9;
+}
+
+#cuerpo-tabla tr:hover {
+  background: #e2e8f0;
+}
+
+tfoot td {
+  font-weight: 700;
+  background: #f3f4f6;
+}
+
+.accion-btn {
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 8px 10px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-right: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.accion-btn.modificar {
+  background: #28a745;
+}
+
+.accion-btn.eliminar {
+  background: #dc3545;
+}
+
+.carrera-link {
+  color: #1d4ed8;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.carrera-link:hover {
+  text-decoration: underline;
+}
+
+.vacio {
+  color: #6b7280;
+  font-style: italic;
+}

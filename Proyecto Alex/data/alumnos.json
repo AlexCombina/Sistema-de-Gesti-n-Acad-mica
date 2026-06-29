@@ -1,0 +1,83 @@
+[
+  {
+    "id": 2,
+    "nombre": "Sofía",
+    "apellido": "Rodríguez",
+    "fechaNac": "2005-08-22",
+    "rol": "Alumno",
+    "asignaturas": [
+      1,
+      2
+    ],
+    "notas": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Lucas",
+    "apellido": "Benítez",
+    "fechaNac": "2003-11-05",
+    "rol": "Alumno",
+    "asignaturas": [
+      2,
+      4,
+      1
+    ],
+    "notas": [
+      3,
+      2,
+      8
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Matias",
+    "apellido": "Gudino",
+    "fechaNac": "2001-10-28",
+    "rol": "Alumno",
+    "notas": [],
+    "asignaturas": []
+  },
+  {
+    "nombre": "Fabricio",
+    "apellido": "Magenelli",
+    "notas": [
+      9
+    ],
+    "asignaturas": [
+      3
+    ],
+    "fechaNac": "2005-11-13",
+    "rol": "Alumno",
+    "id": 5
+  },
+  {
+    "nombre": "Cristian",
+    "apellido": "Figueroga",
+    "notas": [],
+    "asignaturas": [],
+    "fechaNac": "2007-01-03",
+    "rol": "Alumno",
+    "id": 6
+  },
+  {
+    "nombre": "Guillermo",
+    "apellido": "Vivas",
+    "notas": [],
+    "asignaturas": [],
+    "fechaNac": "1995-11-14",
+    "rol": "Alumno",
+    "id": 7
+  },
+  {
+    "nombre": "Alex",
+    "apellido": "Combina",
+    "notas": [],
+    "asignaturas": [],
+    "id": 8,
+    "fechaNac": "2005-11-3",
+    "rol": "Alumno"
+  }
+]

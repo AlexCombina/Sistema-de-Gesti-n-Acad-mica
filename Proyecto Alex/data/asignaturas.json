@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "nombre": "Matemática Discreta"
+  },
+  {
+    "id": 2,
+    "nombre": "Programación Orientada a Objetos"
+  },
+  {
+    "id": 3,
+    "nombre": "Bases de Datos I"
+  },
+  {
+    "id": 4,
+    "nombre": "Sistemas Operativos"
+  },
+  {
+    "id": 5,
+    "nombre": "Gestion de proyectos"
+  }
+]

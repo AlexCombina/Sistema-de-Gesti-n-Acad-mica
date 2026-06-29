@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario de Alumno</title>
+  <link rel="stylesheet" href="css/alumno_form.css" />
+</head>
+<body>
+  <main class="form-page">
+    <section class="card">
+      <a class="back-link" href="alumnos.html">&larr; Volver a alumnos</a>
+      <h1 id="titulo-form">Alta de Alumno</h1>
+
+      <form id="alumno-form" novalidate>
+        <div class="field">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" name="nombre" type="text" required minlength="2" />
+        </div>
+
+        <div class="field">
+          <label for="apellido">Apellido</label>
+          <input id="apellido" name="apellido" type="text" required minlength="2" />
+        </div>
+
+        <div class="field">
+          <label for="fechaNac">Fecha de Nacimiento</label>
+          <input id="fechaNac" name="fechaNac" type="date" required />
+        </div>
+
+        <div class="field">
+          <label for="carrera">Carrera</label>
+          <select id="carrera" name="carrera" required>
+            <option value="">Seleccione una carrera</option>
+          </select>
+        </div>
+
+        <p id="mensaje" class="mensaje" aria-live="polite"></p>
+
+        <div class="actions">
+          <button type="submit" id="btn-guardar">Guardar</button>
+          <a class="btn-cancel" href="alumnos.html">Cancelar</a>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <script type="module" src="alumno_form.js"></script>
+</body>
+</html>

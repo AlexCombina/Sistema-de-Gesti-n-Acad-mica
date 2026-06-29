@@ -1,0 +1,42 @@
+[
+  {
+    "usuario": "juan@gmail.com",
+    "fecha_hora": "2026-06-10T23:17:26.642Z",
+    "exito": false
+  },
+  {
+    "usuario": "admin@admin.com",
+    "fecha_hora": "2026-06-10T23:18:47.326Z",
+    "exito": true
+  },
+  {
+    "usuario": "admin@admin.com",
+    "fecha_hora": "2026-06-10T23:54:50.780Z",
+    "exito": true
+  },
+  {
+    "usuario": "prof1@escuela.com",
+    "fecha_hora": "2026-06-11T00:23:44.904Z",
+    "exito": true
+  },
+  {
+    "usuario": "alumno1@escuela.com",
+    "fecha_hora": "2026-06-11T00:26:05.965Z",
+    "exito": false
+  },
+  {
+    "usuario": "alumno1@escuela.com",
+    "fecha_hora": "2026-06-11T00:26:39.726Z",
+    "exito": true
+  },
+  {
+    "usuario": "admin@admin.com",
+    "fecha_hora": "2026-06-11T00:27:18.271Z",
+    "exito": true
+  },
+  {
+    "usuario": "admin@admin.com",
+    "fecha_hora": "2026-06-11T00:55:40.688Z",
+    "exito": true
+  }
+]

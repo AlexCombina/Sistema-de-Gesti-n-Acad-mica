@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lista de Alumnos</title>
+  <link rel="stylesheet" href="css/alumnos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWix+LLJAJ9/2PKZ5QiAj6Ta86w+fsb2TkR4j8z9pI1FQ8C7pG7H/2Qp6R9E6N9gq8K6PQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <h1>Lista de Alumnos</h1>
+
+  <section class="toolbar-card">
+    <button id="btn-ir-alta" type="button" class="alta-btn">
+      <i class="fa-solid fa-user-plus" aria-hidden="true"></i>
+      Agregar Alumno
+    </button>
+  </section>
+
+  <div class="tabla-wrap">
+    <table id="tabla-alumnos">
+      <thead>
+        <tr>
+          <th class="col-id" data-sort="id">ID</th>
+          <th data-sort="nombre">Nombre</th>
+          <th data-sort="carrera">Carrera</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+
+      <tbody id="cuerpo-tabla"></tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="4">Total alumnos: <span id="total-alumnos">0</span></td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+
+  <script type="module" src="alumnos.js"></script>
+</body>
+</html>

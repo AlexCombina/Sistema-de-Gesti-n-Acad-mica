@@ -1,0 +1,13 @@
+{
+  "name": "sistema-gestion-academica",
+  "version": "1.0.0",
+  "description": "Sistema de Gestión Académica Backend (Node.js, ES6+)",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

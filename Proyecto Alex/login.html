@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - Sistema Academico</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+  <main class="login-page">
+    <section class="card">
+      <h1>Iniciar Sesion</h1>
+      <p class="subtitle">Ingresa tus credenciales para continuar</p>
+
+      <form class="login-form" novalidate>
+        <label for="email">Correo electronico</label>
+        <input id="email" type="email" placeholder="usuario@dominio.com" />
+
+        <label for="password">Contrasena</label>
+        <input id="password" type="password" placeholder="********" />
+
+        <button id="btn-login" type="submit">Iniciar Sesion</button>
+      </form>
+
+      <div id="mensaje" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <script type="module" src="logins.js"></script>
+</body>
+</html>
